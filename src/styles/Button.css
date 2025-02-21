@@ -1,22 +1,21 @@
 
 .add-button {
     position: absolute;
-    top: 40px;
-    left: 20px;
+    top: 40px !important;
+    left: 20px !important;
 }
 
 .custom-button {
-    background: var(--color3);
-    color: #d9c6b0;
-    border: 2px solid #6d6665 !important;
+    background: var(--color4);
+    color: var(--color2);
+    border: none;
+    font-weight: bold;
     transition: all 0.3s ease;
     transform: scale(1);
 }
 
 .custom-button:hover {
-    background: var(--color4);
-    color: #e0cfbc;
-    font-weight: bold;
+    background: var(--color3);
     transform: scale(1.05) ease;
 } 
 
