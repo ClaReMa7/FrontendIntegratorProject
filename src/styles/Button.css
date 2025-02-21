@@ -9,9 +9,11 @@
     background: var(--color4);
     color: var(--color2);
     border: none;
+    border-radius: 5px;
     font-weight: bold;
     transition: all 0.3s ease;
     transform: scale(1);
+    font-family: "Alata", sans-serif;
 }
 
 .custom-button:hover {

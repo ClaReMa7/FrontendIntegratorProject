@@ -95,7 +95,7 @@ function Home() {
 
       {/* Botón para volver arriba */}
       <button
-        className="btn-subir"
+        className="btn-subir custom-button"
         onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
       >
         ↑ Volver arriba
