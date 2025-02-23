@@ -7,6 +7,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import "./index.css";
 import "./styles/custom.css";
 import "./styles/styles.css";
+import "./styles/Button.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>

@@ -10,7 +10,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import "./styles/styles.css"; // Ajusta la ruta si es necesario
 import "./styles/custom.css"; 
-import "./App.css";
+//import "./App.css";
 import "./styles/Button.css";
 
 export const App = () => {

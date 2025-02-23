@@ -1,9 +1,9 @@
 
 .add-button {
-    position: absolute;
-    top: 40px;
-    padding: 30px;
-    margin-top: 20px;
+    position: absolute !important;
+    top: 3rem !important;
+    padding: 30px !important;
+    margin-top: 5rem !important;
 }
 
 .custom-button {
