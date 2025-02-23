@@ -1,11 +1,4 @@
 
-.add-button {
-    position: absolute !important;
-    top: 3rem !important;
-    padding: 30px !important;
-    margin-top: 5rem !important;
-}
-
 .custom-button {
     background: var(--color3) !important;
     color: var(--color2) !important;

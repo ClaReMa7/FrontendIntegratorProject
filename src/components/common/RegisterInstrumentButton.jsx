@@ -5,8 +5,8 @@ export const RegisterInstrumentButton = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
 
     return (
-        <div className=" add-button">
-            <button className="custom-button" onClick={() => setIsModalOpen(true)}>
+        <div >
+            <button className="admin-button" onClick={() => setIsModalOpen(true)} >
                 Agregar Producto
             </button>
             <InstrumentForm
