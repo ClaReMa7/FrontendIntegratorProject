@@ -9,9 +9,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--color1);
+  background-color: var(--color2);
   color: var(--color5);
-  padding: 0 20px;
+  padding: 0 40px;
   box-sizing: border-box;
   top: 4rem;
 }
@@ -19,7 +19,7 @@
 .product-title {
   margin: 0;
   text-align: left;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .back-button {

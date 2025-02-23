@@ -13,19 +13,6 @@ function Header() {
           <span>Clave &amp; Compas</span>
         </Link>
       </div>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Inicio</Link>
-          </li>
-          <li>
-            <Link to="/productos">Productos</Link>
-          </li>
-          <li>
-            <Link to="/contacto">Contacto</Link>
-          </li>
-        </ul>
-      </nav>
       <div className="auth-buttons">
         <button className="btn-crear custom-button">Crear Cuenta</button>
         <button className="btn-iniciar custom-button">Iniciar Sesión</button>

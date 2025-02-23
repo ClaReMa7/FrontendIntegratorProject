@@ -6,7 +6,7 @@
 }
 
 .custom-button {
-    background: var(--color4);
+    background: var(--color3);
     color: var(--color2);
     border: none;
     border-radius: 5px;
@@ -17,7 +17,8 @@
 }
 
 .custom-button:hover {
-    background: var(--color3);
+    background: linear-gradient(45deg, var(--color4), var(--color3));
+    color: var(--color2);
     transform: scale(1.05) ease;
 } 
 
@@ -27,3 +28,16 @@
     color: #e0cfbc !important;
     outline: none !important;
 }
+
+/* Botón para volver arriba */
+.btn-subir {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    z-index: 999;
+}
+
+

@@ -17,14 +17,11 @@ export const App = () => {
   return (
     <Router>
       <InstrumentProvider>
-
-        {/* El Header se muestra en todas las rutas */}
-        <Header />
+        <Header />  {/* El Header se muestra en todas las rutas */}
         <Routes>
-          {/* Ruta principal para la Home */}
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home />} /> {/* Ruta principal para la Home */}
           {/* Ruta adicional para el botón de registro (si se requiere) */}
-          <Route path="/register" element={<RegisterInstrumentButton />} />
+          <Route path="/register" element={<RegisterInstrumentButton />} /> {/* Ruta adicional para el botón de registro (si se requiere) */}
           <Route path="/product/:id" element={<ProductDetail />} />
           <Route path="/product/:id/galeria" element={<FullGallery />} />
         </Routes>
