@@ -24,7 +24,7 @@ export const AdminPanel = () => {
             <section className="admin-content">
                 {view === "home" && ( // Vista por defecto con logo y nombre
                     <div className="home-view">
-                        <img src="/public/img/logo.png" alt="Logo de la App" className="panel-logo" />
+                        <img src="/img/logo.png" alt="Logo de la App" className="panel-logo" />
                         <h1>Bienvenido a AdminPanel</h1>
                     </div>
                 )}
