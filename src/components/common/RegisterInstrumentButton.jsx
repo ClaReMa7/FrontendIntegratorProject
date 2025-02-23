@@ -1,15 +1,14 @@
 import { useState } from 'react';
 import { InstrumentForm } from '../instrument/InstrumentForm';
-import { Button } from 'react-bootstrap';
 
 export const RegisterInstrumentButton = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
 
     return (
         <div className=" add-button">
-            <Button className="custom-button add-button" onClick={() => setIsModalOpen(true)}>
+            <button className="custom-button" onClick={() => setIsModalOpen(true)}>
                 Agregar Producto
-            </Button>
+            </button>
             <InstrumentForm
                 isOpen={isModalOpen}
                 onClose={() => setIsModalOpen(false)}

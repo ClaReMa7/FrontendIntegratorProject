@@ -1,10 +1,9 @@
 
 .add-button {
     position: absolute;
-    top: 60px !important;
-    left: 40px !important;
-    padding: 11px  20px !important;
-    white-space: nowrap !important;
+    top: 40px;
+    padding: 30px;
+    margin-top: 20px;
 }
 
 .custom-button {
@@ -20,15 +19,14 @@
 
 .custom-button:hover {
     background: linear-gradient(45deg, var(--color4), var(--color3)) !important;
-    color: var(--color2) !important;
-    transform: scale(1.05) ease !important;
+    transform: scale(1.05) !important;
 } 
 
 .custom-button:active,
 .custom-button:active:focus-visible {
-    background-color: #a83221 !important;
-    color: #e0cfbc !important;
-    outline: none !important;
+    background-color: #a83221;
+    color: #e0cfbc;
+    outline: none;
 }
 
 /* Botón para volver arriba */
