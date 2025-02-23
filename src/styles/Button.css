@@ -3,23 +3,25 @@
     position: absolute;
     top: 60px !important;
     left: 40px !important;
+    padding: 11px  20px !important;
+    white-space: nowrap !important;
 }
 
 .custom-button {
-    background: var(--color3);
-    color: var(--color2);
-    border: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: all 0.3s ease;
-    transform: scale(1);
-    font-family: "Alata", sans-serif;
+    background: var(--color3) !important;
+    color: var(--color2) !important;
+    border: none !important;
+    border-radius: 5px !important;
+    font-weight: bold !important;
+    transition: all 0.3s ease !important;
+    transform: scale(1) !important;
+    font-family: "Alata", sans-serif !important;
 }
 
 .custom-button:hover {
-    background: linear-gradient(45deg, var(--color4), var(--color3));
-    color: var(--color2);
-    transform: scale(1.05) ease;
+    background: linear-gradient(45deg, var(--color4), var(--color3)) !important;
+    color: var(--color2) !important;
+    transform: scale(1.05) ease !important;
 } 
 
 .custom-button:active,
