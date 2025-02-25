@@ -5,11 +5,11 @@ import FullGallery from "./components/imagegalery/FullGallery";
 import ProductDetail from "./pages/ProductDetail"
 import Header from "./components/common/Header"; // Nuevo Header
 import Home from "./pages/Home"; // Nueva página Home
-import { AdminPanel } from "./pages/AdmiPanel"
+import { AdminPanel } from "./pages/admin/AdmiPanel"
 import "bootstrap/dist/css/bootstrap.min.css";
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import "./styles/styles.css"; // Ajusta la ruta si es necesario
-import "./styles/custom.css"; 
+import "./styles/custom.css";
 //import "./App.css";
 import "./styles/Button.css";
 
